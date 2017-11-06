@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  <script src="node_modules/jquery/dist/inventory-app.min.js"></script>
+   <script src="dist/inventory-app.min.js"></script>
+</head>
+<body>
+
+    <h1> Welcome to Grunt Excercise </h1>
+
+    <div>
+        <input type=button value="Click to get name"id="butt1"/>
+        <input type=text id="name" ></input>
+    </div>
+
+
+</body>
+<script>
+
+  $(document).ready(function(){
+
+      console.log("Name "+file1);
+        $("#butt1").on('click',function(){
+            console.log("button is clicked ");
+            $("#name").val(file1.getHome());
+        });
+
+  });
+
+</script>
+
+</html>
